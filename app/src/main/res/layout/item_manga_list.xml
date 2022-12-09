@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/iv_poster_image"
+        android:layout_width="125dp"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        app:contentScrim="@color/black"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_manga_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/gradient_image_view"
+        android:elevation="100dp"
+        android:text="NameManga"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:contentScrim="@color/black" />
+
+</androidx.cardview.widget.CardView>
